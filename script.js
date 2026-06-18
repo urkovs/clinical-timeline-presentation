@@ -39,13 +39,13 @@ const milestones = [
   }],
   ["lp-normal", "2025-04-22", "workup", "workup", "phase-3", 1, "LP normal", "LP normal; opening pressure 14 cm H2O.", {
     differentials: ["Migraine", "Intracranial Pressure Disorder"],
-    note: "VP's persistent daily headache, positional complaints, dizziness, and falls made me uncomfortable simply labeling this as migraine. I wanted to rule out venous sinus disease, IIH, and other pressure-related headache disorders before moving further down the migraine pathway.",
+    note: "Rule out venous sinus disease, IIH, and other pressure-related headache disorders.",
   }],
   ["ndph-added", "2025-06-02", "workup", "workup", "phase-4", 2, "Refractory NDPH burden", "Profound fatigue, sensory intolerance, cognitive difficulty; Depakote/Reyvow/indomethacin ineffective."],
   ["work-leave", "2025-06-03", "functional", "functional", "phase-4", 0, "Work leave", "Off work June/July."],
   ["june-trials", "2025-06-18", "treatment", "treatment", "phase-4", 0, "Famciclovir + LDN", "Famciclovir, LDN, intranasal lidocaine; Stanford referral.", {
     differentials: ["Migraine", "Post-Viral / Neuroinflammatory"],
-    note: "One question I kept coming back to was whether the September 2024 event represented more than migraine alone. Given VP's history of COVID and persistent systemic symptoms, I explored whether a post-viral neuroinflammatory process might be contributing to headache persistence.",
+    note: "Given VP's history of COVID and persistent systemic symptoms, I explored whether a post-viral neuroinflammatory process might be contributing to headache persistence.",
   }],
   ["doxy-stopped", "2025-07-10", "treatment", "treatment", "phase-4", 1, "Doxy stopped", "Doxycycline stopped due severe throat/stomach pain and no headache benefit.", {
     differentials: ["Post-Viral / Neuroinflammatory"],
