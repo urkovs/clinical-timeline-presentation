@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VP's Clinical Journey</title>
+    <meta
+      name="description"
+      content="A clean, manually controlled clinical timeline for VP's headache journey from September 2024 through May 2026."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css?v=vp-clean-5" />
+    <script src="script.js?v=vp-clean-5" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#timeline">Skip to timeline</a>
+
+    <header class="case-header" aria-labelledby="page-title">
+      <p class="eyebrow">Headache case timeline</p>
+      <h1 id="page-title">VP's Clinical Journey</h1>
+      <p class="date-range">Sept 2024 to May 2026</p>
+    </header>
+
+    <main>
+      <section class="timeline-section" id="timeline" aria-labelledby="timeline-heading">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Interactive case map</p>
+            <h2 id="timeline-heading">Clinical timeline</h2>
+          </div>
+          <p class="current-readout" id="scrubberOutput">Sept 28, 2024</p>
+        </div>
+
+        <div class="control-panel" aria-label="Timeline controls">
+          <button class="control-button" id="prevMilestone" type="button">Previous</button>
+          <label class="scrubber-field" for="timelineScrubber">
+            <span>Date</span>
+            <input id="timelineScrubber" type="range" min="0" max="1000" value="0" step="1" />
+          </label>
+          <button class="control-button" id="nextMilestone" type="button">Next</button>
+
+          <div class="filter-group" role="group" aria-label="Filter milestones">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="functional">Function</button>
+            <button class="filter-button" type="button" data-filter="workup">Workup</button>
+            <button class="filter-button" type="button" data-filter="treatment">Treatment</button>
+            <button class="filter-button" type="button" data-filter="consult">Consults</button>
+          </div>
+        </div>
+
+        <div class="timeline-layout">
+          <div class="timeline-viewport" aria-label="Three-lane clinical timeline">
+            <div class="timeline-canvas" id="timelineCanvas">
+              <div class="phase-band-row" id="phaseBands" aria-label="Clinical phases"></div>
+              <div class="calendar-axis" id="calendarAxis" aria-hidden="true"></div>
+              <div class="lane-grid" id="laneGrid"></div>
+              <div class="date-marker" aria-hidden="true">
+                <span class="marker-line"></span>
+                <span class="marker-label" id="markerLabel">Sept 28, 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="detail-panel" aria-labelledby="detailTitle">
+            <p class="detail-phase" id="detailPhase">Phase 1</p>
+            <h3 id="detailTitle">Abrupt transition to continuous daily migraine</h3>
+            <p class="detail-date" id="detailDate">September 28, 2024</p>
+            <p id="detailSignificance">
+              Episodic migraine became continuous daily severe migraine.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>
