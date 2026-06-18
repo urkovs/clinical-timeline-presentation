@@ -541,6 +541,87 @@ input[type="range"] {
   font-size: 1rem;
 }
 
+.clinical-reasoning {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.detail-panel .reasoning-title {
+  margin-bottom: 10px;
+  color: var(--ink);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.reasoning-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.reasoning-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 850;
+  line-height: 1.15;
+}
+
+.detail-panel .reasoning-note {
+  margin-bottom: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.dx-migraine {
+  color: oklch(40% 0.13 244);
+  background: oklch(94.5% 0.035 244);
+}
+
+.dx-vestibular {
+  color: oklch(40% 0.12 178);
+  background: oklch(93.5% 0.04 178);
+}
+
+.dx-autonomic {
+  color: oklch(39% 0.12 138);
+  background: oklch(93.5% 0.042 138);
+}
+
+.dx-pressure {
+  color: oklch(39% 0.13 276);
+  background: oklch(94% 0.036 276);
+}
+
+.dx-tac {
+  color: oklch(41% 0.15 24);
+  background: oklch(94% 0.043 24);
+}
+
+.dx-cervicogenic {
+  color: oklch(40% 0.1 70);
+  background: oklch(94.5% 0.045 70);
+}
+
+.dx-postviral {
+  color: oklch(38% 0.12 318);
+  background: oklch(94% 0.038 318);
+}
+
+.dx-default {
+  color: var(--ink-soft);
+  background: var(--surface);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
