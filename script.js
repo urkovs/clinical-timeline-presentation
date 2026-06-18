@@ -38,7 +38,7 @@ const milestones = [
   ["doxy-stopped", "2025-07-10", "treatment", "treatment", "phase-4", 1, "Doxy stopped", "Doxycycline stopped due severe throat/stomach pain and no headache benefit."],
   ["oxcarb-nerivio", "2025-08-05", "treatment", "treatment", "phase-4", 2, "Oxcarbazepine + Nerivio", "Oxcarbazepine ineffective; Nerivio tried."],
   ["mayo", "2025-09-15", "workup", "consult", "phase-5", 0, "Mayo Clinic", "Mayo Clinic: NDPH with migraine phenotype, chronic migraine, vestibular migraine, orthostatic intolerance."],
-  ["stanford", "2025-10-15", "workup", "consult", "phase-5", 1, "Stanford Headache Clinic", "Stanford Headache Clinic: chronic migraine plus NDPH phenotype; MRI/MRV/LP normal; CSF leak less likely."],
+  ["stanford", "2025-10-15", "workup", "consult", "phase-5", 1, "Stanford Headache Clinic", "Stanford Headache Clinic: chronic migraine plus NDPH phenotype; MRI/MRV/LP normal; CSF leak less likely. *Lesson: expertise does not necessarily provide certainty… may just confirm uncertainty. Humility, Trust, and Validation*"],
   ["autonomic-support", "2025-11-04", "functional", "functional", "phase-5", 1, "Falls improved", "Salt loading/compression; falls improved; LDN may improve walking/exercise tolerance."],
   ["pain-consult", "2025-11-18", "workup", "consult", "phase-5", 2, "Pain consult", "Pain management consult; TMS, Fioricet, cyclobenzaprine; duloxetine caution due prior SSRI suicidal ideation."],
   ["ajovy-failed", "2026-02-12", "treatment", "treatment", "phase-6", 0, "Ajovy ineffective", "Ajovy ineffective after 3 months; no falls lately; continued daily migraine burden."],
