@@ -30,15 +30,12 @@ const milestones = [
   ["botox-flare", "2025-01-15", "functional", "functional", "phase-2", 1, "Post-Botox flare", "Severe post-Botox flare; pain 9/10; explosive pain; Triple Pill trial."],
   ["jan-29-escalation", "2025-01-29", "treatment", "treatment", "phase-2", 3, "Emgality + status breakers", "Emgality, Trudhesa, quetiapine status breaker, extended Medrol."],
   ["exist-quote", "2025-02-14", "functional", "quote", "phase-3", 0, "\"It feels hard to exist\"", "VP: \"It feels hard to exist.\""],
-  ["feb-disability", "2025-02-14", "functional", "functional", "phase-3", 2, "Major disability", "Unable to do ADLs, blurry vision, daily falls, dizziness.", {
-    differentials: ["Migraine", "Vestibular Migraine"],
-    note: "The amount of dizziness, motion sensitivity, disequilibrium, visual intolerance, and falls seemed disproportionate to what I would expect from migraine pain alone. I suspected vestibular migraine was contributing significantly to overall disability.",
-  }],
+  ["feb-disability", "2025-02-14", "functional", "functional", "phase-3", 2, "Major disability", "Unable to do ADLs, blurry vision, daily falls, dizziness."],
   ["memantine", "2025-02-26", "treatment", "treatment", "phase-3", 0, "Memantine started", "Memantine started."],
   ["olanzapine", "2025-03-12", "treatment", "treatment", "phase-3", 1, "Olanzapine breaker", "Olanzapine status breaker."],
   ["april-workup", "2025-04-08", "workup", "workup", "phase-3", 0, "Workup expands", "Indomethacin trial, Ziopatch, LP planned, Depakote started.", {
     differentials: ["Migraine", "TAC / Hemicrania Continua"],
-    note: "At this point I was becoming increasingly suspicious that we might be dealing with something other than migraine alone. Because VP had persistent unilateral stabbing pain, I wanted to rule out an indomethacin-responsive headache disorder such as hemicrania continua. Lack of response made TAC/HC significantly less likely.",
+    note: "I wanted to ensure no TAC that may be responsive to indomethacin so we tried this on 4/8/25.",
   }],
   ["lp-normal", "2025-04-22", "workup", "workup", "phase-3", 1, "LP normal", "LP normal; opening pressure 14 cm H2O.", {
     differentials: ["Migraine", "Intracranial Pressure Disorder"],
